@@ -1,8 +1,9 @@
+## This groundbreaking technology improves the grocerys shopping experience for millions of people across the globe!
 def create_list
     print "What is the name of your list? "
     name = gets.chomp
     hash = {name:name, items: []}
-    return hash
+    return hash 
 end
     
 
