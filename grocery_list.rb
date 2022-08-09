@@ -63,8 +63,7 @@ while add_additional_items
         puts "Thank you for using our grocery list program. Here's a copy of your list."
         print_list(list)
     else 
-        puts "Invalid Selection. Please enter the number that corresponds to one of the following selections\n [1]Print list\n [2]Add item\n [3]Remove item\n [4]Exit"
-        option = gets.chomp.to_i
+        puts "Invalid Selection."
     end
 end
 
